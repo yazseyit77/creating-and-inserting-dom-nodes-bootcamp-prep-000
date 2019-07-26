@@ -3,3 +3,5 @@
 var element = document.createElement('div');
 element.innerHTML = 'What\'s up world!';
 element.style.backgroundColor = '#green';
+document.body.appendChild(element);
+element.style.textAlign = 'right';
